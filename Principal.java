@@ -15,7 +15,10 @@ public class Principal {
 				fl=true;
 		}while(vida < 4 && !fl);
 		if(fl == true)
+		{
 			System.out.println("Adiviniaste!!! ");
+			System.out.println(Regalo.elegir(vida));
+		}
 		else
 			System.out.println("ups, perdiste... ");
 	}
