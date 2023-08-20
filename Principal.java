@@ -13,7 +13,7 @@ public class Principal {
 			rp = sc.nextInt();
 			if(rp == 1234)
 				fl=true;
-		}while(vida < 3 && !fl);
+		}while(vida < 4 && !fl);
 		if(fl == true)
 			System.out.println("Adiviniaste!!! ");
 		else
